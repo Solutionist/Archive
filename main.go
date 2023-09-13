@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/Solutionist/Archive/internal/recursive"
+	"github.com/Solutionist/Archive/internal/sorting"
 )
 
 func main() {
@@ -18,4 +19,13 @@ func main() {
 
 	result4 := recursive.FibonacciIterative(8)
 	fmt.Println(result4)
+
+	result5 := sorting.BubbleSort([]int{99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0})
+	fmt.Println(result5)
+
+	result6 := sorting.SelectionSort([]int{99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0})
+	fmt.Println(result6)
+
+	result7 := sorting.InsertionSort([]int{99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0})
+	fmt.Println(result7)
 }
