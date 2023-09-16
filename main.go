@@ -28,4 +28,7 @@ func main() {
 
 	result7 := sorting.InsertionSort([]int{99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0})
 	fmt.Println(result7)
+
+	result8 := sorting.MergeSort([]int{99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0})
+	fmt.Println(result8)
 }
